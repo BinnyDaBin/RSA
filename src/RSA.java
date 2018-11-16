@@ -32,8 +32,9 @@ public class RSA {
 //		RSA_main myInf = new RSA_main(100);
 //		System.out.println(myInf.toString());
 		
-		// Encrypt the message and print out
 		Scanner input = new Scanner(System.in);
+		
+		// Encrypt the message and print out
 		System.out.print("Enter a message for the encryption: ");
 		String s1 = "";
 		s1 = input.nextLine();
@@ -44,6 +45,7 @@ public class RSA {
 		String s2 = "";
 		s2 = input.nextLine();
 		System.out.println(decrypt(s2));
+		
 		input.close();
 	}
 	
